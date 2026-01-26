@@ -1,8 +1,4 @@
-* { 
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box; 
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,10 +17,11 @@ body {
 
 header {
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  color: white;
+  color: black;
   text-align: center;
   padding: 70px 30px;
   margin-bottom: 40px;
+  margin-top: 0px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   position: relative;
@@ -182,7 +179,6 @@ header p {
 }
 
 .project ul li::before {
-  content: '▸';
   position: absolute;
   left: 0;
   color: #3498db;
@@ -260,7 +256,6 @@ header p {
 }
 
 .responsibilities li:before {
-  content: "✓";
   color: #27ae60;
   font-weight: bold;
   position: absolute;
