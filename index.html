@@ -4,73 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minn Minn Cherry - Data Engineer</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f4f4f4;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-            margin-bottom: 40px;
-        }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { font-size: 1.2em; opacity: 0.9; }
-        .section {
-            background: white;
-            padding: 30px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .section h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .skill-tag {
-            background: #3498db;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-        }
-        .project {
-            margin-bottom: 25px;
-            padding-bottom: 25px;
-            border-bottom: 1px solid #eee;
-        }
-        .project:last-child { border-bottom: none; }
-        .project h3 { color: #2c3e50; margin-bottom: 10px; }
-        .contact-links {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .contact-links a {
-            color: #3498db;
-            text-decoration: none;
-            font-size: 1.1em;
-        }
-        .contact-links a:hover { text-decoration: underline; }
-    </style>
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
     <header>
@@ -111,11 +45,11 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" style="text-align: justify">
             <h2>Previous Projects</h2>
             
             <div class="project">
-                <h3>🏆 IoT-Based Healthcare System</h3>
+                <h3>🏆 IoT-Based Healthcare System 2017</h3>
                 <p><strong>First Prize Winner - University Capstone Project</strong></p>
                 <p>Developed an innovative IoT healthcare monitoring solution that tracks patient vital signs in real-time using sensor integration and cloud analytics.</p>
                 <p><strong>Technologies:</strong> IoT, Andriod Application, Web Application</p>
@@ -156,20 +90,96 @@
 
         <div class="section">
             <h2>Experience Highlights</h2>
-            <ul style="padding-left: 20px;">
-                <li>Optimized database performance, enhancing query speed by 50%</li>
-                <li>Designed scalable data pipelines, boosting efficiency by 30%</li>
-                <li>Automated data workflows, saving 20 hours weekly</li>
-                <li>Mentored junior engineers in data engineering best practices</li>
-            </ul>
+            <div class="job-header">
+                <div class="company-info">
+                    <div class="company-name">Frontiir Co., Ltd.</div>
+                    <div class="job-title">Data Engineer</div>
+                </div>
+                <div class="job-duration">August 2021 - August 2025</div>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Data Infrastructure & Engineering</h4>
+                <ul class="responsibilities">
+                    <li>Architected and deployed data infrastructure using Apache Airflow, Jupyter, and Metabase, enabling scalable data processing and real-time analytics</li>
+                    <li>Developed automated ETL pipelines in Python and PHP, reducing data processing time by 40% and ensuring seamless data flow into the warehouse</li>
+                    <li>Designed and implemented star and snowflake schema data models, improving reporting accuracy and query performance</li>
+                    <li>Implemented Apache Kafka streaming architecture for real-time data ingestion and consumption</li>
+                    <li>Managed big data processing using Hadoop ecosystem for large-scale data analytics</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Database & Data Quality Management</h4>
+                <ul class="responsibilities">
+                    <li>Maintained data warehouse operations, ensuring 99% data integrity and reliability across all systems</li>
+                    <li>Optimized SQL queries and database performance, enhancing query speed by 50%</li>
+                    <li>Managed both relational and non-relational databases including PostgreSQL and MongoDB</li>
+                    <li>Performed comprehensive data analysis and validation to meet business requirements</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Automation & System Administration</h4>
+                <ul class="responsibilities">
+                    <li>Developed shell scripts and managed cron jobs to automate data workflows, saving 20 hours of manual work weekly</li>
+                    <li>Proficient in Linux command-line operations for system administration and troubleshooting</li>
+                    <li>Implemented containerization solutions using Docker for consistent development and deployment environments</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Full-Stack Development & API Integration</h4>
+                <ul class="responsibilities">
+                    <li>Designed and developed responsive web applications using HTML, CSS, JavaScript, and Bootstrap framework</li>
+                    <li>Built robust backend functionality and CRUD operations using Java Spring, Hibernate, Struts, and Servlets</li>
+                    <li>Created RESTful APIs to support cross-functional team requirements and system integrations</li>
+                    <li>Generated custom reports and dashboards for finance and cross-functional teams</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Collaboration & Project Delivery</h4>
+                <ul class="responsibilities">
+                    <li>Partnered with customers and internal stakeholders to gather requirements and deliver tailored data solutions</li>
+                    <li>Led software installation, configuration, and testing initiatives, ensuring smooth operations</li>
+                    <li>Collaborated with cross-functional teams to translate business requirements into technical implementations</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h4 class="subsection-title">Technical Skills & Certifications</h4>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Apache Airflow</span>
+                    <span class="tech-tag">Apache Kafka</span>
+                    <span class="tech-tag">Hadoop</span>
+                    <span class="tech-tag">Metabase</span>
+                    <span class="tech-tag">Spring Framework</span>
+                    <span class="tech-tag">Hibernate</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Linux</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">RESTful APIs</span>
+                </div>
+                <ul class="responsibilities" style="margin-top: 15px;">
+                    <li>Currently pursuing AWS Developer Associate certification</li>
+                </ul>
+            </div>
         </div>
 
         <div class="section">
             <h2>Contact</h2>
             <p>I'm always interested in hearing about new opportunities and collaborations.</p>
-            <p>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-            <p>🐙 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            <p>📧 Email: <a href="mailto:minn.m.cherry@gmail.com">minn.m.cherry@gmail.com</a></p>
+            <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/minnminncherry/" target="_blank">linkedin.com/in/minnminncherry</a></p>
+            <p>🐙 GitHub: <a href="https://github.com/minnminncherry" target="_blank">github.com/minnminncherry</a></p>
         </div>
     </div>
 </body>
